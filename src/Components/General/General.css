@@ -1,0 +1,111 @@
+.buttonAdd {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #000; 
+    cursor: pointer;
+    position: fixed;
+    top: 40px;
+    right: 80px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.fa-solid{
+    font-size: 20px;
+}
+
+.buttonAdd .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.buttonAdd:hover {
+    transform: scale(1.2);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonAdd, .deleteButton, .archiveButton {
+    width: 35px;
+    height: 35px;
+    border-radius: 10%;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: 2px solid #ff5555;
+    position: fixed;
+    top: 100px;
+    right: 80px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.fa-trash{
+    color: #ff5555;
+}
+
+.deleteButton .iconD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.archiveButton{
+    background-color: transparent;
+    color: #808080;
+    border: 2px solid #808080;
+    position: fixed;
+    top: 160px;
+    right: 80px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.deleteButton:hover {
+    transform: scale(1.2);
+}
+
+
+.archiveButton:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 767px){
+    .buttonAdd {
+        right: 30px;
+    }
+
+    .archiveButton{
+        right: 30px; 
+    }
+
+    .deleteButton {
+        right: 30px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      

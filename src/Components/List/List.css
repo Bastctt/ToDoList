@@ -1,0 +1,171 @@
+.listTitle{
+    cursor: pointer;
+}
+
+.list-container {
+    width: 400px; 
+    height: 500px;
+    background-color: #fff; 
+    color: #000000; 
+    padding: 20px; 
+    border-radius: 15px;
+    cursor: grab;
+    box-shadow: rgba(0, 0, 0, 0.554) 0px 5px 15px;
+    z-index: 1;
+}
+
+.closeButton {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ff5555;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    left: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.fa-xmark {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: #000;
+}
+
+.closeButton:hover .fa-xmark {
+    opacity: 1;
+}
+
+.list-form {
+    display: flex;
+    padding-top: 15px;
+    
+}
+
+.list-form input[type="text"] {
+    flex-grow: 1; 
+    margin-right: 10px; 
+    border-radius: 5px;
+    padding: 10px; 
+    background-color: #fff;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.231);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: none;
+}
+
+.submitButton {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 0;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    transition: all 0.3s ease;
+    width: 25%;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.231);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.submitButton:hover{
+    color: #fff;
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+li {
+    cursor: pointer;
+    padding-top:20px;
+}
+
+.item{
+    color: #000000;
+}
+
+.list-items li s {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+}
+
+.list-items li s:before {
+    content: "";
+    position: absolute;
+    bottom: 33%;
+    left: -10px;
+    right: -10px; 
+    height: 3px; 
+    background-color: #000000;
+}
+
+.modifTitle{
+    flex-grow: 1; 
+    margin-right: 10px; 
+    border-radius: 5px;
+    padding: 10px; 
+    background-color: #fff;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+
+.sizeButton:hover .fa-maximize {
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 767px){
+    .list-container {
+        width: 250px; 
+        height:400px;
+    }
+
+    .list-form {
+        display: flex;
+        padding-top: 7px;
+    }
+    
+    .list-form input[type="text"] {
+        width: 8%;
+    }
+    
+    .submitButton {
+        font-size: 13px;
+    }
+
+    .listTitle{
+        font-size: 20px;
+    }
+
+    .closeButton {
+        top: -11px;
+    }
+
+    .fa-xmark {
+        font-size: 9px;
+        
+    }
+}
+  
+ 
+  
+  
+  
+  

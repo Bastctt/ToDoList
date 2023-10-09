@@ -1,0 +1,32 @@
+p{
+    color: #000;
+}
+
+.archivedLists{
+    color: #000;
+}
+
+li{
+    color: #000;
+}
+
+.archives {
+    color: #000;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    right: 0;
+}
+
+.listes{
+    display: flex;
+    gap: 100px;
+}
+
+@media screen and (max-width: 767px){
+    .listes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
