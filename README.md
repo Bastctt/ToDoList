@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+## Création d'un site ToDOList afin de créer des listes personnalisées, les archiver et les supprimer 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pour ce site, devinez quel framework ai-je utilisé ? je vous laisse deviner... ET OUI ! React encore une fois.
 
-## Available Scripts
+CE fidèle framework m'a permis de réaliser ce projet que tout bon développeur React s'netraîne à réaliser afin de consolider ses compétences. 
 
-In the project directory, you can run:
+Pour cette ToDOList, j'ai décidé encore un fois de partir sur un design épuré et minimaliste (deux couleurs de base, pas trop d'éléments et quelque chose d'esthétique et de claire).
 
-### `npm start`
+Niveau design nous avons une page d'accueil avec Titre de l'app et bouton, les deux sont animés. La navigation entre les pages se fait avec une animation de balayage et fade des ééments vers la gauche.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Côté fonctionnalités, l'user à la possibilité de créer plusieurs listes numérotées et de les placer là ou il veut sur l'écran, (malheureusement cette fonctionnalité n'est pas optimale sur mobile cela du à la taille de l'écran qui bloque les déplacements des listes sur les différents axes... Logique en soit) 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+L'user dispose d'un formualire afin d'entrer un éléments dans sa liste qui s'affiche directement à la soumission de ce dernier au clique sur le bouton. 
 
-### `npm test`
+Niveau sauvegardes, les listes sont sauvegardées automatiquement dans le localStorage et récuperée puis affichée lors de la navigation vers la page Archive, qui présente les dernières listes ainsi que les éléments soumis par le formulaire. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Enfin, côté suppression, l'user dispose d'un bouton suppression en rouge (on peut pas le louper j'ai mis un icône poubelle) qui au clique supprime toutes les listes archivées dans le localStorage. 
 
-### `npm run build`
+Je travaille encore sur ce projet, bien qu'il soit déja en ligne et fonctionnel, afin d'ajouter la fonctionnalité de personnalisation des titres des listes ! J'ai déja cette fonctionnalité mais lors de l'archivage, la liste du localStorage prend seulement le titre "list #1" sans la personnalisation appliquée en amont. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Le site est hébergé via Vercel.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
