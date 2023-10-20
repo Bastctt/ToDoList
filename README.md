@@ -1,24 +1,69 @@
-## Création d'un site ToDOList afin de créer des listes personnalisées, les archiver et les supprimer 
+## Création d'un Site To-Do List Personnalisé
 
-Pour ce site, devinez quel framework ai-je utilisé ? je vous laisse deviner... ET OUI ! React encore une fois.
+Bienvenue sur mon site To-Do List, un projet passionnant que j'ai développé pour permettre aux utilisateurs de créer, archiver et supprimer des listes personnalisées.
 
-CE fidèle framework m'a permis de réaliser ce projet que tout bon développeur React s'netraîne à réaliser afin de consolider ses compétences. 
+### Technologies Utilisées
 
-Pour cette ToDOList, j'ai décidé encore un fois de partir sur un design épuré et minimaliste (deux couleurs de base, pas trop d'éléments et quelque chose d'esthétique et de claire).
+Devinez quel framework j'ai choisi pour ce projet ? Exactement, React ! Ce fidèle compagnon m'a aidé à concrétiser cette application, un exercice que tout développeur React entreprend pour affiner ses compétences.
 
-Niveau design nous avons une page d'accueil avec Titre de l'app et bouton, les deux sont animés. La navigation entre les pages se fait avec une animation de balayage et fade des ééments vers la gauche.
+### Design Épuré et Minimaliste
 
-Côté fonctionnalités, l'user à la possibilité de créer plusieurs listes numérotées et de les placer là ou il veut sur l'écran, (malheureusement cette fonctionnalité n'est pas optimale sur mobile cela du à la taille de l'écran qui bloque les déplacements des listes sur les différents axes... Logique en soit) 
+Pour cette To-Do List, j'ai opté une fois de plus pour un design épuré et minimaliste. Avec une palette de deux couleurs de base, j'ai créé une interface esthétique et intuitive. La page d'accueil présente un titre animé et un bouton interactif. La navigation entre les pages est fluide grâce à des animations de balayage et de fondu des éléments vers la gauche.
 
-L'user dispose d'un formualire afin d'entrer un éléments dans sa liste qui s'affiche directement à la soumission de ce dernier au clique sur le bouton. 
+### Fonctionnalités Clés
 
-Niveau sauvegardes, les listes sont sauvegardées automatiquement dans le localStorage et récuperée puis affichée lors de la navigation vers la page Archive, qui présente les dernières listes ainsi que les éléments soumis par le formulaire. 
+Les utilisateurs peuvent créer plusieurs listes numérotées et les disposer librement à l'écran. Cependant, veuillez noter que cette fonctionnalité peut ne pas être optimale sur les appareils mobiles en raison des contraintes d'espace sur l'écran.
 
-Enfin, côté suppression, l'user dispose d'un bouton suppression en rouge (on peut pas le louper j'ai mis un icône poubelle) qui au clique supprime toutes les listes archivées dans le localStorage. 
+Un formulaire permet d'ajouter des éléments aux listes, affichant les entrées dès qu'elles sont soumises. Les listes sont automatiquement sauvegardées dans le localStorage et peuvent être consultées dans la section Archive, qui présente les dernières listes ainsi que les éléments ajoutés.
 
-Je travaille encore sur ce projet, bien qu'il soit déja en ligne et fonctionnel, afin d'ajouter la fonctionnalité de personnalisation des titres des listes ! J'ai déja cette fonctionnalité mais lors de l'archivage, la liste du localStorage prend seulement le titre "list #1" sans la personnalisation appliquée en amont. 
+### Fonctionnalité en Cours de Développement
 
-Le site est hébergé via Vercel.
+Actuellement, je travaille sur l'ajout d'une fonctionnalité de personnalisation des titres des listes. Bien que cette fonctionnalité soit en place, les titres personnalisés ne sont pas correctement sauvegardés lors de l'archivage. Je m'efforce de résoudre ce problème pour améliorer l'expérience utilisateur.
+
+### Suppression Simple et Efficace
+
+Les utilisateurs peuvent supprimer facilement les listes archivées grâce à un bouton de suppression en rouge orné d'une icône poubelle. Cette fonctionnalité intuitive garantit une gestion aisée des listes.
+
+Le site est hébergé via Vercel, assurant ainsi une accessibilité fluide et rapide.
+
+N'hésitez pas à explorer le site To-Do List et à créer vos propres listes personnalisées. Je suis toujours en train de peaufiner cette application pour offrir une expérience utilisateur exceptionnelle.
+
+Merci de visiter mon site et n'hésitez pas à me contacter si vous avez des suggestions ou des commentaires. Bonne organisation de vos tâches !
+
+
+
+
+## Creating a Custom To-Do List Website
+
+Welcome to my To-Do List website, an exciting project I developed to allow users to create, archive, and delete personalized lists.
+
+### Technologies Used
+
+Guess which framework I chose for this project? That's right, React! This faithful companion helped me bring this application to life, an exercise that every React developer undertakes to refine their skills.
+
+### Clean and Minimalist Design
+
+For this To-Do List, I once again opted for a clean and minimalist design. With a palette of two basic colors, I created an aesthetic and intuitive interface. The homepage features an animated title and an interactive button. Navigation between pages is smooth thanks to swipe and fade animations of elements to the left.
+
+### Key Features
+
+Users can create multiple numbered lists and freely arrange them on the screen. However, please note that this feature may not be optimal on mobile devices due to screen size constraints.
+
+A form allows users to add items to the lists, displaying entries as soon as they are submitted. Lists are automatically saved in the localStorage and can be viewed in the Archive section, which showcases the latest lists along with the submitted items.
+
+### Feature Under Development
+
+Currently, I am working on adding a feature to customize the titles of the lists. Although this feature is in place, customized titles are not properly saved during archiving. I am working to resolve this issue to enhance the user experience.
+
+### Simple and Effective Deletion
+
+Users can easily delete archived lists with a red delete button adorned with a trash can icon. This intuitive feature ensures easy list management.
+
+The site is hosted via Vercel, ensuring smooth and fast accessibility.
+
+Feel free to explore the To-Do List website and create your own personalized lists. I am continually refining this application to offer an exceptional user experience.
+
+Thank you for visiting my site, and please don't hesitate to contact me if you have any suggestions or comments. Happy organizing your tasks!
 
 
 
