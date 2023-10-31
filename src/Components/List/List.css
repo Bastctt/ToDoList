@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -20px;
+    top: -90px;
     left: 8px;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -155,7 +155,7 @@ li {
     }
 
     .closeButton {
-        top: -11px;
+        top: -60px;
     }
 
     .fa-xmark {
